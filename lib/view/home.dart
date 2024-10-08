@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/view/view_list.dart';
 import 'package:flutter_application_1/view/isi_home.dart';
-import 'package:flutter_application_1/view/home.dart';
+import 'package:flutter_application_1/view/Profile.dart';
 
 class HomeView extends StatefulWidget {
   const HomeView({super.key});
@@ -21,9 +21,9 @@ class HomeViewState extends State<HomeView> {
 
   static const List<Widget> widgetOptions = <Widget>[
     Center(
-      child: IsiHomeView(),
+      child: IsiHome(),
     ),
-    ListNamaView(),
+    ListViewScreen(),
     Center(
       child: userProfile(),
     ),

@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/component/constant.dart';
 
 class userProfile extends StatelessWidget {
   const userProfile({super.key});
